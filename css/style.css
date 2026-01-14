@@ -125,10 +125,27 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #0052CC 0%, #003d99 100%);
+    background: linear-gradient(135deg, rgba(0, 82, 204, 0.85) 0%, rgba(0, 61, 153, 0.85) 100%), url('../images/hero-bg.webp') center/cover no-repeat;
     color: white;
     padding: 150px 0 100px;
     text-align: center;
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
 }
 
 .hero-content {
@@ -244,7 +261,8 @@ section {
 
 /* Solution Section */
 .solution-section {
-    background: white;
+    background: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('../images/features-bg.webp') center/cover no-repeat;
+    position: relative;
 }
 
 .solution-grid {
