@@ -1,413 +1,219 @@
-<!DOCTYPE html>
+<!-- index.html -->
+<!doctype html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="White-Label Bundle: Azubi-App + Ausbilder-App - Digitales Berichtsheft für die Gastronomie. IHK-konform, DSGVO-konform, Offline-fähig. Spart bis zu 9.436€ über 3 Jahre.">
-    <title>White-Label Bundle: Azubi-App + Ausbilder-App | Digitales Berichtsheft</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Azubi-Apps Portfolio | 🖤 RE:BELLE™ Media</title>
+  <meta name="description" content="Kompakter Moodboard-1Pager: Drei Azubi-Apps (Koch, ReFa, HoFa) – produktionsreif, offline, IHK/DSGVO-orientiert, Pilotprojekte vergünstigt." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <span style="font-size: 1.2rem;">🖤</span>
-                <span>RE:BELLE™ Media</span>
-            </div>
-            <div class="nav-menu">
-                <a href="#features">Features</a>
-                <a href="#usps">Vorteile</a>
-                <a href="#roi">ROI</a>
-                <a href="#pricing">Preise</a>
-                <a href="#contact" class="btn-primary">Jetzt anfragen</a>
-            </div>
-            <div class="nav-toggle" id="navToggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </nav>
+  <main class="rb-page" role="main" aria-label="Azubi-Apps Portfolio Moodboard">
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">IHK-konform · DSGVO-konform · Offline-fähig</div>
-                <h1 class="hero-title">Digitales Berichtsheft für die Gastronomie</h1>
-                <p class="hero-subtitle">White-Label Bundle: Azubi-App + Ausbilder-App</p>
-                <p class="hero-description">Einmalige Investition statt monatlicher Gebühren</p>
-                <div class="hero-highlight">
-                    <span class="highlight-text">Spart bis zu 9.436€ über 3 Jahre</span>
-                </div>
-                <div class="hero-cta">
-                    <a href="#contact" class="btn-large btn-primary">Vollversion anfragen</a>
-                    <a href="#features" class="btn-large btn-secondary">Mehr erfahren</a>
-                </div>
-            </div>
+    <!-- TOP STRIP -->
+    <header class="rb-top" aria-label="Brand Header">
+      <div class="rb-brand">
+        <div class="rb-brand__mark" aria-hidden="true">🖤</div>
+        <div class="rb-brand__txt">
+          <div class="rb-brand__name">RE:BELLE™ Media</div>
+          <div class="rb-brand__tag">The Art of Feeling. Amplified.</div>
         </div>
+      </div>
+
+      <div class="rb-titleblock">
+        <div class="rb-eyebrow">AZUBI-APPS PORTFOLIO</div>
+        <h1 class="rb-h1">
+          Koch · ReFa · HoFa
+          <span class="rb-h1__soft">– produktionsreif, offline, IHK-konform nutzbar</span>
+        </h1>
+      </div>
+    </header>
+
+    <!-- MOODBOARD -->
+    <section class="rb-board" aria-label="Moodboard Grid">
+
+      <!-- SWATCHES -->
+      <aside class="rb-swatches" aria-label="Brand Farben">
+        <div class="sw sw--sand" title="#BC9E81"></div>
+        <div class="sw sw--ink" title="#14161B"></div>
+        <div class="sw sw--paper" title="#EEECE4"></div>
+        <div class="sw sw--black" title="#050505"></div>
+        <div class="sw sw--rose" title="#E7D0C1"></div>
+      </aside>
+
+      <!-- GRID -->
+      <div class="rb-grid">
+
+        <!-- HERO TILE -->
+        <article class="tile tile--hero" aria-label="Kurzüberblick">
+          <div class="tile__cap">Deliverable</div>
+          <div class="tile__h">Digitale Berichtsheft-App + Lernsystem</div>
+          <div class="tile__p">
+            Drei eigenständige Apps (je Beruf spezialisiert) auf einer gemeinsamen Plattform.
+            Fokus: **Dokumentation + Prüfung + Export** – ohne Abo, ohne Cloud-Zwang.
+          </div>
+
+          <div class="tile__chips" aria-label="Faktenchips">
+            <span class="chip"><span class="chip__k">Status</span><span class="chip__v">Ready</span></span>
+            <span class="chip"><span class="chip__k">Offline</span><span class="chip__v">100%</span></span>
+            <span class="chip"><span class="chip__k">Codebasis</span><span class="chip__v">95% shared</span></span>
+            <span class="chip"><span class="chip__k">Größe</span><span class="chip__v">&lt;261 KB</span></span>
+          </div>
+        </article>
+
+        <!-- APPS TILE -->
+        <article class="tile tile--apps" aria-label="Apps und Fragenumfang">
+          <div class="tile__cap">Apps</div>
+          <div class="tile__h">Drei Berufe, drei Apps</div>
+
+          <div class="minirow" role="list">
+            <div class="mini" role="listitem">
+              <div class="mini__t">Koch/Köchin</div>
+              <div class="mini__b">95 Fragen</div>
+              <div class="mini__s">50 GAP1 · 45 GAP2</div>
+            </div>
+            <div class="mini" role="listitem">
+              <div class="mini__t">ReFa</div>
+              <div class="mini__b">55 Fragen</div>
+              <div class="mini__s">20 GAP1 · 35 GAP2</div>
+            </div>
+            <div class="mini" role="listitem">
+              <div class="mini__t">HoFa</div>
+              <div class="mini__b">55 Fragen</div>
+              <div class="mini__s">20 GAP1 · 35 GAP2</div>
+            </div>
+          </div>
+
+          <div class="tile__p tile__p--tight">
+            Differenzierung über berufsspezifische Prüfungsinhalte (IHK-nah), inklusive Lösungshinweisen und Kategorisierung.
+          </div>
+        </article>
+
+        <!-- FUNCTIONS TILE -->
+        <article class="tile" aria-label="Kernfunktionen">
+          <div class="tile__cap">Funktionen</div>
+          <div class="tile__h">6 Module, die wirklich zählen</div>
+          <ul class="list">
+            <li><strong>Berichtsheft</strong> (Tag/Woche/Monat)</li>
+            <li><strong>Kalender</strong> (3 Lehrjahre)</li>
+            <li><strong>Prüfung</strong> (GAP1/GAP2, Timer, Feedback)</li>
+            <li><strong>Glossar</strong> (Suche, Kategorien)</li>
+            <li><strong>Wissensmodule</strong> nach Lehrjahr</li>
+            <li><strong>PDF-Export</strong> (druckoptimiert)</li>
+          </ul>
+        </article>
+
+        <!-- PLATFORM TILE -->
+        <article class="tile" aria-label="Technische Plattform">
+          <div class="tile__cap">Plattform</div>
+          <div class="tile__h">Ein Stack – drei Produkte</div>
+          <ul class="list">
+            <li>Vanilla JS (ES6+) – keine Framework-Abhängigkeit</li>
+            <li>PWA + Service Worker – offlinefähig</li>
+            <li>Local Storage – Offline-Persistenz</li>
+            <li>PDF-Export (jsPDF)</li>
+            <li>Deployment: Netlify / GitHub Pages / Server</li>
+          </ul>
+        </article>
+
+        <!-- COMPLIANCE TILE -->
+        <article class="tile" aria-label="Compliance">
+          <div class="tile__cap">Compliance</div>
+          <div class="tile__h">DSGVO-orientiert & clean</div>
+          <ul class="list">
+            <li>Keine Cloud-Speicherung ohne Zustimmung</li>
+            <li>Kein externes Tracking</li>
+            <li>Daten bleiben lokal beim Nutzer</li>
+          </ul>
+          <div class="note">
+            Ergebnis: weniger Diskussion, mehr Einsatz.
+          </div>
+        </article>
+
+        <!-- PILOT TILE -->
+        <article class="tile tile--pilot" aria-label="Pilotprojekte">
+          <div class="tile__cap">Pilot</div>
+          <div class="tile__h">Vergünstigt starten – mitgestalten – schnell live</div>
+
+          <div class="pilotgrid">
+            <div class="pilotbox">
+              <div class="pilotbox__t">Pilotpartner bekommen</div>
+              <ul class="list list--tight">
+                <li><strong>vergünstigte Konditionen</strong></li>
+                <li>kurzes Remote-Onboarding</li>
+                <li>Feedback fließt direkt in Updates</li>
+              </ul>
+            </div>
+            <div class="pilotbox">
+              <div class="pilotbox__t">Wir brauchen</div>
+              <ul class="list list--tight">
+                <li>4–8 Wochen reale Nutzung</li>
+                <li>1x/Woche 10 Minuten Feedback</li>
+                <li>Fokus: Berichtsheft + Prüfungsmodus</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cta">
+            <button class="btn" type="button" data-copy="rebelle.media.creator@gmail.com">E-Mail kopieren</button>
+            <a class="btn btn--ghost" href="https://rebellemedia.de" target="_self" rel="noopener">rebellemedia.de</a>
+          </div>
+        </article>
+
+        <!-- CONTACT TILE -->
+        <article class="tile tile--contact" aria-label="Kontakt">
+          <div class="tile__cap">Kontakt</div>
+          <div class="tile__h">Nächster Schritt</div>
+          <div class="tile__p tile__p--tight">
+            Demo + Pilotkonditionen in 15 Minuten klären.
+          </div>
+
+          <div class="contact">
+            <div class="contact__line">
+              <div class="contact__k">E-Mail</div>
+              <div class="contact__v"><a href="mailto:rebelle.media.creator@gmail.com">rebelle.media.creator@gmail.com</a></div>
+            </div>
+            <div class="contact__line">
+              <div class="contact__k">Web</div>
+              <div class="contact__v">
+                <a href="https://newwomanintheshop.com" target="_self" rel="noopener">newwomanintheshop.com</a>
+                <span class="dot">·</span>
+                <a href="https://rebellemedia.de" target="_self" rel="noopener">rebellemedia.de</a>
+              </div>
+            </div>
+
+            <div class="sig">
+              <div class="sig__small">🖤 RE:BELLE™ Media</div>
+              <div class="sig__script">Tina</div>
+            </div>
+          </div>
+        </article>
+
+      </div>
     </section>
 
-    <!-- Problem Section -->
-    <section class="problem-section">
-        <div class="container">
-            <h2 class="section-title">Papier-Berichtshefte kosten Betriebe 10+ Stunden pro Woche</h2>
-            <div class="problem-grid">
-                <div class="problem-card">
-                    <div class="problem-icon"><i class="fas fa-clock"></i></div>
-                    <h3>Zeitaufwendig</h3>
-                    <p>Papier-Berichtshefte sind fehleranfällig und kosten wertvolle Arbeitszeit</p>
-                </div>
-                <div class="problem-card">
-                    <div class="problem-icon"><i class="fas fa-network-wired"></i></div>
-                    <h3>Keine zentrale Verwaltung</h3>
-                    <p>Keine Übersicht über mehrere Standorte und Auszubildende</p>
-                </div>
-                <div class="problem-card">
-                    <div class="problem-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Kein Lernfortschritt-Tracking</h3>
-                    <p>Keine Kontrolle über die Ausbildungsqualität und Prüfungsvorbereitung</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Solution Section -->
-    <section class="solution-section" id="features">
-        <div class="container">
-            <h2 class="section-title">White-Label Bundle löst alle Probleme mit einmaliger Investition</h2>
-            <div class="solution-grid">
-                <div class="solution-card">
-                    <div class="solution-header">
-                        <i class="fas fa-mobile-alt"></i>
-                        <h3>Azubi-App</h3>
-                    </div>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Digitales Berichtsheft (IHK-konform)</li>
-                        <li><i class="fas fa-check"></i> Glossar (178 Fachbegriffe, 3 Lehrjahre)</li>
-                        <li><i class="fas fa-check"></i> Quiz-System mit Lernerfolgskontrolle</li>
-                        <li><i class="fas fa-check"></i> 9 Prüfungssimulationen (IHK-Format)</li>
-                        <li><i class="fas fa-check"></i> PDF-Export (IHK-Wochenplan)</li>
-                        <li><i class="fas fa-check"></i> Offline-fähig (LocalStorage)</li>
-                        <li><i class="fas fa-check"></i> White-Label (vollständig anpassbar)</li>
-                    </ul>
-                </div>
-                <div class="solution-card">
-                    <div class="solution-header">
-                        <i class="fas fa-desktop"></i>
-                        <h3>Ausbilder-App</h3>
-                    </div>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check"></i> Lehrlings-Verwaltung (CRUD)</li>
-                        <li><i class="fas fa-check"></i> Lernfortschritt-Tracking (Quiz/Prüfungen)</li>
-                        <li><i class="fas fa-check"></i> Nachrichten-System (Newsletter)</li>
-                        <li><i class="fas fa-check"></i> IHK-Wochenplan-Export (PDF)</li>
-                        <li><i class="fas fa-check"></i> Dashboard mit Statistiken</li>
-                        <li><i class="fas fa-check"></i> API für Azubi-App Integration</li>
-                        <li><i class="fas fa-check"></i> MySQL-Datenbank inklusive</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- USPs Section -->
-    <section class="usps-section" id="usps">
-        <div class="container">
-            <h2 class="section-title">5 Alleinstellungsmerkmale</h2>
-            <div class="usps-grid">
-                <div class="usp-card">
-                    <div class="usp-number">1</div>
-                    <div class="usp-icon"><i class="fas fa-palette"></i></div>
-                    <h3>White-Label</h3>
-                    <p>Vollständig anpassbar (Logo, Farben, Firmenname) – Ihr eigenes Produkt!</p>
-                </div>
-                <div class="usp-card">
-                    <div class="usp-number">2</div>
-                    <div class="usp-icon"><i class="fas fa-wifi"></i></div>
-                    <h3>Offline-fähig</h3>
-                    <p>Azubi-App funktioniert komplett ohne Internet – überall einsetzbar</p>
-                </div>
-                <div class="usp-card">
-                    <div class="usp-number">3</div>
-                    <div class="usp-icon"><i class="fas fa-chart-line"></i></div>
-                    <h3>Lernfortschritt-Tracking</h3>
-                    <p>Quiz + Prüfungen mit automatischer Auswertung – bessere Ausbildungsqualität</p>
-                </div>
-                <div class="usp-card">
-                    <div class="usp-number">4</div>
-                    <div class="usp-icon"><i class="fas fa-certificate"></i></div>
-                    <h3>IHK-konform</h3>
-                    <p>PDF-Export im offiziellen Format – keine Probleme bei Prüfungen</p>
-                </div>
-                <div class="usp-card">
-                    <div class="usp-number">5</div>
-                    <div class="usp-icon"><i class="fas fa-euro-sign"></i></div>
-                    <h3>Einmalige Investition</h3>
-                    <p>2.500-5.000€ statt monatlicher Gebühren – ROI nach 6-12 Monaten</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ROI Section -->
-    <section class="roi-section" id="roi">
-        <div class="container">
-            <h2 class="section-title">ROI-Rechnung: 9.436€ Ersparnis über 3 Jahre bei 50 Azubis</h2>
-            <div class="roi-table-wrapper">
-                <table class="roi-table">
-                    <thead>
-                        <tr>
-                            <th>Lösung</th>
-                            <th>Einmalig</th>
-                            <th>Monatlich</th>
-                            <th>3 Jahre</th>
-                            <th>Gesamt</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="highlight-row">
-                            <td class="solution-name">White-Label Bundle</td>
-                            <td>5.000€</td>
-                            <td>99€</td>
-                            <td>3.564€</td>
-                            <td class="total">8.564€</td>
-                        </tr>
-                        <tr>
-                            <td class="solution-name">Ausbildungsnachweis.de</td>
-                            <td>0€</td>
-                            <td>250€</td>
-                            <td>9.000€</td>
-                            <td class="total">9.000€</td>
-                        </tr>
-                        <tr>
-                            <td class="solution-name">Azubiyo</td>
-                            <td>0€</td>
-                            <td>500€</td>
-                            <td>18.000€</td>
-                            <td class="total">18.000€</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="roi-highlight">
-                <p>Ersparnis: 436€ - 9.436€ über 3 Jahre!</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="pricing-section" id="pricing">
-        <div class="container">
-            <h2 class="section-title">Preisgestaltung: Einmalige Investition + Hosting-Gebühren</h2>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Einmaliger Kaufpreis</h3>
-                    </div>
-                    <div class="pricing-body">
-                        <div class="price-box">
-                            <div class="price">2.500€ - 5.000€</div>
-                            <div class="price-label">Einzellizenz</div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="fas fa-check"></i> Unbegrenzte Installationen</li>
-                            <li><i class="fas fa-check"></i> Unbegrenzte Benutzer</li>
-                            <li><i class="fas fa-check"></i> White-Label Anpassung</li>
-                        </ul>
-                        <div class="price-box">
-                            <div class="price">10.000€ - 25.000€</div>
-                            <div class="price-label">Enterprise-Lizenz</div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="fas fa-check"></i> Unbegrenzte Standorte</li>
-                            <li><i class="fas fa-check"></i> Priority Support</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Hosting-Gebühren</h3>
-                    </div>
-                    <div class="pricing-body">
-                        <div class="price-box">
-                            <div class="price">0€ - 19€</div>
-                            <div class="price-label">pro Monat</div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="fas fa-mobile-alt"></i> <strong>Azubi-App</strong></li>
-                            <li><i class="fas fa-check"></i> Netlify Free Tier (0€)</li>
-                            <li><i class="fas fa-check"></i> Netlify Pro (19€)</li>
-                        </ul>
-                        <div class="price-box">
-                            <div class="price">29€ - 99€</div>
-                            <div class="price-label">pro Monat</div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="fas fa-desktop"></i> <strong>Ausbilder-App</strong></li>
-                            <li><i class="fas fa-check"></i> Manus Hosting</li>
-                            <li><i class="fas fa-check"></i> MySQL-Datenbank inkl.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Support & Wartung</h3>
-                        <span class="optional-badge">OPTIONAL</span>
-                    </div>
-                    <div class="pricing-body">
-                        <div class="price-box">
-                            <div class="price">500€ - 1.000€</div>
-                            <div class="price-label">pro Jahr</div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="fas fa-check"></i> <strong>Basic</strong></li>
-                            <li><i class="fas fa-check"></i> E-Mail-Support</li>
-                            <li><i class="fas fa-check"></i> Bug-Fixes</li>
-                        </ul>
-                        <div class="price-box">
-                            <div class="price">2.000€ - 5.000€</div>
-                            <div class="price-label">pro Jahr</div>
-                        </div>
-                        <ul class="pricing-features">
-                            <li><i class="fas fa-check"></i> <strong>Premium</strong></li>
-                            <li><i class="fas fa-check"></i> E-Mail + Telefon</li>
-                            <li><i class="fas fa-check"></i> Feature-Updates</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Setup Section -->
-    <section class="setup-section">
-        <div class="container">
-            <h2 class="section-title">Setup in 10 Minuten: Keine Programmierung erforderlich</h2>
-            <div class="setup-grid">
-                <div class="setup-card">
-                    <div class="setup-number">1</div>
-                    <div class="setup-icon"><i class="fas fa-file-code"></i></div>
-                    <h3>branding.json anpassen</h3>
-                    <ul>
-                        <li>Logo-URL eintragen</li>
-                        <li>Farben definieren</li>
-                        <li>Firmenname eintragen</li>
-                    </ul>
-                    <div class="setup-time">5 Minuten</div>
-                </div>
-                <div class="setup-card">
-                    <div class="setup-number">2</div>
-                    <div class="setup-icon"><i class="fas fa-cloud-upload-alt"></i></div>
-                    <h3>Ausbilder-App deployen</h3>
-                    <ul>
-                        <li>TAR.GZ hochladen</li>
-                        <li>Datenbank automatisch erstellt</li>
-                        <li>URL erhalten</li>
-                    </ul>
-                    <div class="setup-time">3 Minuten</div>
-                </div>
-                <div class="setup-card">
-                    <div class="setup-number">3</div>
-                    <div class="setup-icon"><i class="fas fa-plug"></i></div>
-                    <h3>API-Integration aktivieren</h3>
-                    <ul>
-                        <li>API-Key generieren</li>
-                        <li>In Azubi-App eintragen</li>
-                        <li>(branding.json)</li>
-                    </ul>
-                    <div class="setup-time">2 Minuten</div>
-                </div>
-            </div>
-            <div class="setup-final">Fertig! 🎉</div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
-        <div class="container">
-            <h2 class="section-title">Jetzt starten: Vollversion anfragen und in 10 Minuten live gehen</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Kontaktieren Sie uns</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>rebelle.media.creator@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>01629471865</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-globe"></i>
-                        <span>newwomanintheshop.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-globe"></i>
-                        <span>rebellemedia.de</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/pulse/rebelle-azubi-ausbilder-system-neu-gedacht-f%C3%BCr-die-tina-schlesier-ip2cf" target="_blank" style="color: inherit; text-decoration: none;">LinkedIn Demo ansehen</a>
-                    </div>
-                    <div class="contact-highlight">
-                        <p><strong>Investieren Sie einmalig 2.500-5.000€<br>und sparen Sie bis zu 9.436€ über 3 Jahre!</strong></p>
-                    </div>
-                </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name *</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">E-Mail *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="company">Firma</label>
-                            <input type="text" id="company" name="company">
-                        </div>
-                        <div class="form-group">
-                            <label for="azubis">Anzahl Auszubildende</label>
-                            <input type="number" id="azubis" name="azubis" min="1">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Nachricht</label>
-                            <textarea id="message" name="message" rows="4"></textarea>
-                        </div>
-                        <button type="submit" class="btn-large btn-primary">Vollversion anfragen</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <span style="font-size: 1.2rem;">🖤</span>
-                    <span>RE:BELLE™ Media</span>
-                </div>
-                <div style="margin-top: 10px; font-size: 0.9rem; opacity: 0.8;">The Art of Feeling. Amplified.</div>
-                <div class="footer-links">
-                    <a href="#features">Features</a>
-                    <a href="#usps">Vorteile</a>
-                    <a href="#roi">ROI</a>
-                    <a href="#pricing">Preise</a>
-                    <a href="#contact">Kontakt</a>
-                </div>
-                <div class="footer-copyright">
-                    <p>&copy; 2025 RE:BELLE™ Media. Alle Rechte vorbehalten.</p>
-                    <p style="margin-top: 5px; font-size: 0.85rem;">newwomanintheshop.com · rebellemedia.de</p>
-                </div>
-            </div>
-        </div>
+    <!-- FOOTER (reuse-friendly, compact) -->
+    <footer class="rb-foot" role="contentinfo" aria-label="Footer">
+      <div class="rb-foot__left">
+        <div class="rb-foot__brand">🖤 RE:BELLE™ Media</div>
+        <div class="rb-foot__tag">The Art of Feeling. Amplified.</div>
+      </div>
+      <div class="rb-foot__right">
+        <a href="https://rebellemedia.de/impressum/" target="_self" rel="noopener">Impressum</a>
+        <a href="https://rebellemedia.de/datenschutz/" target="_self" rel="noopener">Datenschutz</a>
+        <a href="https://rebellemedia.de/barrierefreiheit/" target="_self" rel="noopener">Barrierefreiheit</a>
+      </div>
     </footer>
 
-    <script src="js/script.js"></script>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
